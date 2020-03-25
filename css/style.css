@@ -6,6 +6,11 @@
   clear: both;
 }
 
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
 .header {
   position: fixed;
   width: 100%;
@@ -14,8 +19,7 @@
 }
 
 .header-inner {
-  width: 1100px;
-  margin: 0 auto;
+  padding: 15px 15px;
 }
 
 .contact {
@@ -26,8 +30,12 @@
 }
 
 .title {
-  padding: 250px;
   text-align: center;
+  background-color: #74cfae;
+}
+
+.title-inner {
+  padding: 250px 0;
 }
 
 .headline {
@@ -47,8 +55,6 @@
 }
 
 .can-inner {
-  width: 1100px;
-  margin: 0 auto;
   display: table;
 }
 
@@ -82,8 +88,6 @@
 }
 
 .made-inner {
-  width: 1100px;
-  margin: 0 auto;
 }
 
 .OUR {
@@ -93,15 +97,19 @@
 }
 
 .pictures {
-  float: left;
-  margin-left: 100px;
   margin-bottom: 90px;
   margin-top: 40px;
+  font-size: 0;
 }
 
 .pic {
+  float: left;
   margin-left: 100px;
   margin-bottom: 80px;
+}
+
+.pic:first-child {
+  margin-left: 0;
 }
 
 .lastwork {
@@ -132,7 +140,5 @@
 }
 
 .sns-inner {
-  width: 1100px;
-  margin: 0 auto;
 }
 
