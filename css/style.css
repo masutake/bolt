@@ -15,11 +15,10 @@
   position: fixed;
   width: 100%;
   background-color: #fff;
-  padding: 15px 15px;
 }
 
 .header-inner {
-  padding: 15px 15px;
+  padding: 15px 0;
 }
 
 .contact {
@@ -31,7 +30,7 @@
 
 .title {
   text-align: center;
-  background-color: #74cfae;
+  background-color: #f2f2f2;
 }
 
 .title-inner {
@@ -56,13 +55,13 @@
 
 .can-inner {
   display: table;
+  padding-top: 50px;
 }
 
 .phone {
   display: inline-block;
   vertical-align: middle;
   display: table-cell;
-  margin-top: 50px;
 }
 
 .can-contents {
@@ -88,6 +87,7 @@
 }
 
 .made-inner {
+  padding: 60px 0 70px;
 }
 
 .OUR {
@@ -108,7 +108,7 @@
   margin-bottom: 80px;
 }
 
-.pic:first-child {
+.pic:nth-child(3n+1) {
   margin-left: 0;
 }
 
@@ -116,12 +116,14 @@
   font-size: 20px;
   text-align: center;
   float: left;
+  padding: 0 90px;
 }
 
 .email {
   font-size: 12px;
   padding: 14px 20px;
   margin-left: 90px;
+  background-color: #74cfae;
 }
 
 .skills {
@@ -130,8 +132,21 @@
 }
 
 .skills-inner {
-  width: 1100px;
-  margin: 0 auto;
+  padding: 70px 0 80px;
+}
+
+.figures {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.imges {
+  float: left;
+  margin-left: 180px;
+}
+
+.imges:first-child {
+  margin-left: 0;
 }
 
 .sns {
@@ -140,5 +155,6 @@
 }
 
 .sns-inner {
+  padding: 200px 0;
 }
 
