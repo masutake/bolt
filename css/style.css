@@ -90,7 +90,7 @@
   padding: 60px 0 70px;
 }
 
-.OUR {
+.OUR-W {
   font-size: 24px;
   color: #4e4e4e;
   text-align: center;
@@ -135,6 +135,12 @@
   padding: 70px 0 80px;
 }
 
+.OUR-S {
+  text-align: center;
+  font-size: 24px;
+  color: #f2f2f2;
+}
+
 .figures {
   margin-top: 70px;
   margin-bottom: 100px;
@@ -156,5 +162,11 @@
 
 .sns-inner {
   padding: 200px 0;
+}
+
+.icon {
+  width: 185px;
+  color: #74cfae;
+  font-size: 50px;
 }
 
