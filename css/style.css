@@ -162,6 +162,7 @@
 
 .sns-inner {
   padding: 200px 0;
+  text-align: center;
 }
 
 .icon {
@@ -170,3 +171,12 @@
   font-size: 50px;
 }
 
+.hooter {
+  width: 100%;
+  background-color: #74cfae;
+}
+
+.hooter-inner {
+  padding: 20px 0 25px;
+  text-align: right;
+}
