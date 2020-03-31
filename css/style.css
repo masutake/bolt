@@ -21,11 +21,21 @@
   padding: 15px 0;
 }
 
+.fa-bolt {
+  color: #333333;
+}
+
 .contact {
   float: right;
   font-size: 12px;
   background-color: #74cfae;
   padding: 14px 12px;
+  color: #ffffff;
+}
+
+.contact:hover {
+  color: #333333;
+  transition: all 0.3s;
 }
 
 .title {
@@ -106,6 +116,12 @@
   float: left;
   margin-left: 100px;
   margin-bottom: 80px;
+  opacity: 0.7;
+}
+
+.pic:hover {
+  opacity: 1;
+  transition: all 0.3s;
 }
 
 .pic:nth-child(3n+1) {
@@ -155,6 +171,11 @@
   margin-left: 0;
 }
 
+.fontsize {
+  text-align: center;
+  color: #f2f2f2;
+}
+
 .sns {
   width: 100%;
   background-color: #f2f2f2;
@@ -169,14 +190,21 @@
   width: 185px;
   color: #74cfae;
   font-size: 50px;
+  padding: 30px 0;
 }
 
-.hooter {
+.icon:hover {
+  background-color: #ffffff;
+  transition: all 0.3s;
+  }
+
+.footer {
   width: 100%;
   background-color: #74cfae;
 }
 
-.hooter-inner {
+.footer-inner {
   padding: 20px 0 25px;
   text-align: right;
+  color: #f2f2f2;
 }
