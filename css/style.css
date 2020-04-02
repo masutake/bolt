@@ -82,6 +82,7 @@
   text-align: center;
   display: table-cell;
   color: #f2f2f2;
+  width: 600px;
 }
 
 .WHAT {
@@ -91,7 +92,7 @@
 
 .cando {
   font-size: 20px;
-  width: 600px;
+  margin: 0 auto;
 }
 
 .made {
@@ -133,6 +134,7 @@
 
 .message {
   display: table;
+  width: 1000px;
 }
 
 .lastwork {
