@@ -15,6 +15,7 @@
   position: fixed;
   width: 100%;
   background-color: #fff;
+  z-index: 1;
 }
 
 .header-inner {
@@ -31,6 +32,7 @@
   background-color: #74cfae;
   padding: 14px 12px;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .contact:hover {
@@ -128,11 +130,16 @@
   margin-left: 0;
 }
 
+.message {
+  display: table;
+}
+
 .lastwork {
   font-size: 20px;
   text-align: center;
   float: left;
   padding: 0 90px;
+  display: table-cell;
 }
 
 .email {
@@ -140,6 +147,17 @@
   padding: 14px 20px;
   margin-left: 90px;
   background-color: #74cfae;
+  color: #ffffff;
+  text-decoration: none;
+  display: table-cell;
+  width: 80px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.email:hover {
+  color: #333333;
+  transition: all 0.3s;
 }
 
 .skills {
@@ -172,6 +190,7 @@
 }
 
 .fontsize {
+  margin-top: 20px;
   text-align: center;
   color: #f2f2f2;
 }
