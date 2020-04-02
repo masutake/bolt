@@ -78,6 +78,7 @@
 }
 
 .can-contents {
+  margin: 0 auto;
   vertical-align: middle;
   text-align: center;
   display: table-cell;
@@ -92,7 +93,6 @@
 
 .cando {
   font-size: 20px;
-  margin: 0 auto;
 }
 
 .made {
