@@ -119,6 +119,7 @@
 }
 
 .pictures {
+  margin-top: 40px;
   margin-bottom: 90px;
   font-size: 0;
 }
@@ -139,9 +140,14 @@
   margin-left: 0;
 }
 
+.pic:nth-child(-n+3) {
+  margin-top: 0;
+}
+
 .message {
   display: flex;
   width: 1000px;
+  align-items: flex-start;
 }
 
 .lastwork {
@@ -185,10 +191,11 @@
 
 .figures {
   margin-top: 70px;
+  display: flex;
+  justify-content: center;
 }
 
 .imges {
-  float: left;
   margin-left: 180px;
 }
 
