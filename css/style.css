@@ -7,7 +7,7 @@
 }
 
 .body {
-  font-family: "Lato","Raleway",sans-serif;
+  font-family: "Lato";
 }
 
 .inner {
@@ -15,8 +15,12 @@
   margin: 0 auto;
 }
 
+.is-raleway {
+  font-family: "raleway";
+}
+
 .main {
-  padding: 250px, 0;
+  padding-top: 70px;
 }
 
 .header {
@@ -68,6 +72,7 @@
 .subtitle {
   font-size: 30px;
   color: #c0c0c0;
+  margin-top: 20px;
 }
 
 .can {
@@ -76,20 +81,15 @@
 }
 
 .can-inner {
-  display: table;
+  display: flex;
   padding-top: 50px;
 }
 
-.phone {
-  vertical-align: middle;
-  display: table-cell;
-}
 
 .can-contents {
   margin: 0 auto;
   vertical-align: middle;
   text-align: center;
-  display: table-cell;
   color: #f2f2f2;
   width: 600px;
 }
@@ -120,14 +120,13 @@
 
 .pictures {
   margin-bottom: 90px;
-  margin-top: 40px;
   font-size: 0;
 }
 
 .pic {
   float: left;
   margin-left: 100px;
-  margin-bottom: 80px;
+  margin-top: 80px;
   opacity: 0.7;
   transition: all 0.3s ease-out;
 }
@@ -141,7 +140,7 @@
 }
 
 .message {
-  display: table;
+  display: flex;
   width: 1000px;
 }
 
@@ -150,18 +149,15 @@
   text-align: center;
   float: left;
   padding: 0 90px;
-  display: table-cell;
   width: 600px;
 }
 
 .email {
   font-size: 12px;
   padding: 14px 20px;
-  margin-left: 90px;
   background-color: #74cfae;
   color: #fff;
   text-decoration: none;
-  display: table-cell;
   width: 80px;
   text-align: center;
   vertical-align: middle;
@@ -189,7 +185,6 @@
 
 .figures {
   margin-top: 70px;
-  margin-bottom: 100px;
 }
 
 .imges {
