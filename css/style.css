@@ -6,9 +6,17 @@
   clear: both;
 }
 
+.body {
+  font-family: "Lato","Raleway",sans-serif;
+}
+
 .inner {
   width: 1100px;
   margin: 0 auto;
+}
+
+.main {
+  padding: 250px, 0;
 }
 
 .header {
@@ -25,6 +33,7 @@
 .fa-bolt {
   color: #333333;
   font-size: 40px;
+  text-decoration: none;
 }
 
 .contact {
@@ -32,13 +41,13 @@
   font-size: 12px;
   background-color: #74cfae;
   padding: 14px 12px;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
+  transition: all 0.3s ease-out;
 }
 
 .contact:hover {
   color: #333333;
-  transition: all 0.3s;
 }
 
 .title {
@@ -52,7 +61,7 @@
 
 .headline {
   font-size: 90px;
-  font-weight: 700px;
+  font-weight: 700;
   color: #74cfae;
 }
 
@@ -72,7 +81,6 @@
 }
 
 .phone {
-  display: inline-block;
   vertical-align: middle;
   display: table-cell;
 }
@@ -88,7 +96,7 @@
 
 .WHAT {
   font-size: 24px;
-  padding: 35px 0
+  margin: 35px 0
 }
 
 .cando {
@@ -121,11 +129,11 @@
   margin-left: 100px;
   margin-bottom: 80px;
   opacity: 0.7;
+  transition: all 0.3s ease-out;
 }
 
 .pic:hover {
   opacity: 1;
-  transition: all 0.3s;
 }
 
 .pic:nth-child(3n+1) {
@@ -151,17 +159,17 @@
   padding: 14px 20px;
   margin-left: 90px;
   background-color: #74cfae;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   display: table-cell;
   width: 80px;
   text-align: center;
   vertical-align: middle;
+  transition: all 0.3s ease-out;
 }
 
 .email:hover {
   color: #333333;
-  transition: all 0.3s;
 }
 
 .skills {
@@ -214,12 +222,13 @@
   color: #74cfae;
   font-size: 50px;
   padding: 30px 0;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
 }
 
 .icon:hover {
-  background-color: #ffffff;
-  transition: all 0.3s;
-  }
+  background-color: #fff;
+}
 
 .footer {
   width: 100%;
