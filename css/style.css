@@ -224,8 +224,12 @@ body {
   font-size: 0;
 }
 
-.icon {
+.list {
   width: 185px;
+}
+
+.icon {
+  width: 100%;
   color: #74cfae;
   font-size: 50px;
   padding: 30px 0;
@@ -334,6 +338,10 @@ body {
     margin-top: 88px;
   }
 
+  .list {
+    width: 25%;
+  }
+
 }
 
 @media screen and (max-width:767px){
@@ -400,11 +408,6 @@ body {
 
   .list {
     display: list-item;
-  }
-  
-  .icon {
     width: 100%;
-  }
-
-  
+  }  
 }
