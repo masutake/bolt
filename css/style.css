@@ -263,6 +263,18 @@
     flex-direction: column;
   }
 
+  .sp {
+    margin: 0 auto;
+  }
+
+  .WHAT {
+    margin-top: 20px;
+  }
+
+  .cando {
+    margin-bottom: 25px;
+  }
+
   .message {
     width: 100%;
     flex-direction: column;
@@ -275,6 +287,19 @@
   .lastwork {
     width: auto;
   }
+
+  .piclist {
+    clear: left;
+  }
+
+  .piclist:nth-child(3n+1) {
+    margin-top: 80px;
+  }
+
+  .piclist:first-child {
+    margin-top: 0;
+  }
+
 
   .imagelist {
     margin-left: 0;
@@ -295,14 +320,6 @@
 
 @media screen and (min-width:768px) and (max-width:1199px){
 
-  .WHAT {
-    margin-top: 20px;
-  }
-
-  .cando {
-    margin-bottom: 25px;
-  }
-
   .piclist {
     margin: 0;
   }
@@ -313,6 +330,10 @@
 
   .email {
     margin-top: 40px;
+  }
+
+  .piclist {
+    margin: 0 auto;
   }
 
   .imagelist {
@@ -373,26 +394,9 @@
   .can-contents {
     width: 100%;
   }
-
-  .WHAT {
-    margin-top: 20px;
-  }
-
-  .cando {
-    margin-bottom: 25px;
-  }
   
   .piclist {
     margin: 0;
-    -webkit-box-align: center;
-  }
-
-  .piclist:nth-child(3n+1) {
-    margin-top: 80px;
-  }
-
-  .piclist:first-child {
-    margin-top: 0;
   }
 
   .pic {
