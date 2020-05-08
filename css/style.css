@@ -289,7 +289,9 @@
   }
 
   .piclist {
-    clear: left;
+    float: none;
+    text-align: center;
+    margin: 0;
   }
 
   .piclist:nth-child(3n+1) {
@@ -320,20 +322,12 @@
 
 @media screen and (min-width:768px) and (max-width:1199px){
 
-  .piclist {
-    margin: 0;
-  }
-
   .lastwork {
-    margin: 0 -90px;
+    padding: 0 0;
   }
 
   .email {
     margin-top: 40px;
-  }
-
-  .piclist {
-    margin: 0 auto;
   }
 
   .imagelist {
@@ -392,14 +386,6 @@
   }
 
   .can-contents {
-    width: 100%;
-  }
-  
-  .piclist {
-    margin: 0;
-  }
-
-  .pic {
     width: 100%;
   }
 
