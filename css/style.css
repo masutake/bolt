@@ -6,7 +6,7 @@
   clear: both;
 }
 
-.body {
+body {
   font-family: "Lato";
 }
 
@@ -378,10 +378,6 @@
 
   .title-inner {
     padding-top: 160px;
-    padding-bottom: 0;
-  }
-
-  .subtitle {
     padding-bottom: 130px;
   }
 
@@ -407,7 +403,7 @@
   }
   
   .icon {
-    width: 345px;
+    width: 100%;
   }
 
   
