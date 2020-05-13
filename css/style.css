@@ -87,6 +87,7 @@ body {
 .can-inner {
   display: flex;
   padding-top: 50px;
+  padding-bottom: 25px;
 }
 
 
@@ -277,10 +278,6 @@ body {
 
   .WHAT {
     margin-top: 20px;
-  }
-
-  .cando {
-    margin-bottom: 25px;
   }
 
   .message {
